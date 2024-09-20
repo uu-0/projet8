@@ -1,12 +1,17 @@
 function pairNumbers(minNumber, maxNumber){
-    result = '';
+    let result = [];
+    let pairsNumbers = '';
     for(let i = minNumber; i <= maxNumber; i++) {
         if(i % 2 === 0){
-            result += i + ',';
+            result.push(i);
         }
-        return result;
     }
-    return result;
+    if(result.length > 0){
+        pairsNumbers = result.join(',');
+        return pairsNumbers;
+    }
+    return "aucun nombre pair"
+
 }
 
-export default pairNumbers
+pairNumbers(1, 10);

@@ -13,9 +13,9 @@ function convertToBinary(){
     //conversion en entier
     decimal = parseInt(decimal); 
 
-     // Convertir le nombre décimal en binaire
+     //convertir le nombre décimal en binaire
      let binary = decimal.toString(2);
 
-     // Afficher le résultat
+     //afficher le résultat
      result.innerHTML  = `résultat en binaire : ${binary}`;
 }

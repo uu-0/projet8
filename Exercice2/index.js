@@ -1,4 +1,5 @@
 function calculate(number1, number2, operator) {
+//ajt if
   switch (operator) {
       case '+':
           return number1 + number2;
@@ -24,4 +25,3 @@ console.log(calculate(12, 3, '/'));  // Affiche 4
 console.log(calculate(8, 0, '/'));   // Affiche "Division by zero is not allowed"
 console.log(calculate(4, 5, '%'));   // Affiche "Invalid operator"
 
-export default calculate;
